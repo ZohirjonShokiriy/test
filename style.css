@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+.card{
+    border: 1px solid black;
+    width: 18%;
+    height: 55vh;
+    border-radius: 7px;
+    margin: 20px 0 0 20pc;
+}
+.card-body{
+padding: 30px 10px 0 10px ;
+}
+.card-body>p{
+    padding: 7px 0;
+    font-family: 'Courier New', Courier, monospace;
+color: gray;
+}
+.card-body>h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.price{
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    padding: 5px 15px;
+    border-radius: 7px;
+}
